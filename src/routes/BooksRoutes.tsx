@@ -1,10 +1,10 @@
 import React from 'react';
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
-import ContentNotFound from "../components/ContentNotFound";
-import ContentHome from "../components/ContentHome";
-import ContentSearch from "../components/ContentSearch";
-import ContentSelected from "../components/ContentSelected";
-import ContentResult from "../components/ContentResult";
+import ContentNotFound from "../views/ContentNotFound";
+import ContentHome from "../views/ContentHome";
+import ContentSearch from "../views/ContentSearch";
+import ContentSelected from "../views/ContentSelected";
+import ContentResult from "../views/ContentResult";
 
 const AppRoutes = () => {
     return (

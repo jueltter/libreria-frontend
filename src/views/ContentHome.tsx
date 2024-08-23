@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomNav from "./CustomNav";
+import CustomNav from "../components/CustomNav";
 
 const ContentHome = () => {
     return (

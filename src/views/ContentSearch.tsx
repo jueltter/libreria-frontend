@@ -1,6 +1,6 @@
 import React from 'react';
-import Books from "./Books";
-import CustomNav from "./CustomNav";
+import Books from "../components/Books";
+import CustomNav from "../components/CustomNav";
 
 const ContentSearch = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Book from "./Book";
-import CustomNav from "./CustomNav";
+import Book from "../components/Book";
+import CustomNav from "../components/CustomNav";
 
 const ContentSelected = () => {
     return (
