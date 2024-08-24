@@ -1,3 +1,9 @@
-import React  from 'react';
+import React from 'react';
 
-export const BooksContext = React.createContext({});
+const books: any[] = [];
+const selectedBooks: any = undefined;
+const updateSelectedBooks: any = undefined;
+const defaultValue = {books, selectedBooks, updateSelectedBooks};
+
+
+export const BooksContext = React.createContext(defaultValue);
