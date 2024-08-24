@@ -19,7 +19,8 @@ const ContentSelected = () => {
                                   genero={book.genero}
                                   autor={book.autor}
                                   isbn10={book.isbn10}
-                                  isbn13={book.isbn13}/>) : (<p></p>)}
+                                  isbn13={book.isbn13}
+                                  id={book.id}/>) : (<p></p>)}
 
         </>
     );

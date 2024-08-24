@@ -1,7 +1,7 @@
 import React from 'react';
 
 const books: any[] = [];
-const selectedBooks: any = undefined;
+const selectedBooks: any[] = [];
 const updateSelectedBooks: any = undefined;
 const defaultValue = {books, selectedBooks, updateSelectedBooks};
 

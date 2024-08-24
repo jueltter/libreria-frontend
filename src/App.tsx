@@ -6,11 +6,14 @@ import {BooksContext} from "./contexts/BooksContext";
 import {useBooks} from "./hooks/useBooks";
 
 function App() {
-    const [selectedBooks, setSelectedBooks] = useState([]);
     const books = useBooks();
+
+    const cache: any = localStorage.getItem("books-cache");
+    const [selectedBooks, setSelectedBooks] = useState(cache ? JSON.parse(cache) :[]);
 
     let updateSelectedBooks = (books: any) => {
         setSelectedBooks(books);
+        localStorage.setItem("books-cache", JSON.stringify(books))
     }
 
     return (
