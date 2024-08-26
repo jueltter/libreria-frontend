@@ -13,7 +13,7 @@ const CustomNav = () => {
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/">Inicio</Nav.Link>
                             <Nav.Link as={Link} to="/search">Buscar</Nav.Link>
-                            <Nav.Link as={Link} to="/result">Reserva</Nav.Link>
+                            <Nav.Link as={Link} to="/result">Carrito</Nav.Link>
                             <Nav.Link as={Link} to="/not-found">Página No Encontrada</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

@@ -19,7 +19,7 @@ const ContentResult = () => {
                 <Row className="align-items-center justify-content-center">
                     <Col xs="auto">
                         <Button className="mb-2" onClick={reserve}>
-                            Reservar
+                            Alquiler
                         </Button>
                     </Col>
                 </Row>
